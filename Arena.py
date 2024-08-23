@@ -44,7 +44,7 @@ class Arena:
         #La función retorna los puntajes finales.
         print("")
         print(bot1.Nombre + ": " + str(puntaje_bot1)) 
-        print(bot2.Nombre + " Ganadora con: " + str(puntaje_bot2))
+        print(bot2.Nombre + " : " + str(puntaje_bot2))
         time.sleep(1)
 
         return puntaje_bot1, puntaje_bot2
