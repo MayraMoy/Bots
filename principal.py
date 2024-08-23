@@ -1,7 +1,7 @@
 import time
 
 #Importan los modulos.py
-from Arena import Arena
+from arena import Arena
 from bot_bueno import BotBueno
 from bot_random import BotRandom
 from bot_poderoso import BotPoderosa
