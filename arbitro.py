@@ -1,3 +1,6 @@
+#Contiene un método estático calcular_puntaje_jugada que determina el puntaje de dos bots en una jugada.
+#Según la combinación de jugadas de los bots (M para Murciélago y S para Sapo), 
+#se asignan puntos:
 class Arbitro:
     @staticmethod
     def calcular_puntaje_jugada(jugada_bot1, jugada_bot2):

@@ -1,0 +1,11 @@
+Tenemos dos cartas:
++ carta Sapo.
++ carta Murciélago.
+
+Ambos jugadores (2 jugadores) arrojaran una carta al mismo tiempo.
+Se anotan los puntos según la siguiente tabla:
+  murciélago - murciélago: 0 a 0
+  sapo - sapo: 1 a 1
+  murciélago - sapo: 2 a -2
+
+Bot Poderoso mantiene un historial de las jugadas del oponente para detectar patrones.

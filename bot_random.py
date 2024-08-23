@@ -7,5 +7,7 @@ class BotRandom(BotAbstract):
     def Nombre(self) -> str:
         return "Random"
 
+    #Este bot seleccionará de manera completamente aleatoria entre estas dos opciones, 
+    #sin considerar el número de la jugada ni la jugada previa del oponente.
     def Jugar(self, jugada_numero: int, jugada_previa_oponente: str) -> str:
         return random.choice(['M', 'S'])
