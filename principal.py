@@ -4,11 +4,11 @@ import time
 from arena import Arena
 from bot_bueno import BotBueno
 from bot_random import BotRandom
-from bot_poderoso import BotPoderosa
+from bot_poderosa import Bot_las_Chicas_Super_Poderosas
 from fixture import Fixture
 
 #crea una lista con los bots que van a competir
-bots = [BotBueno(), BotRandom(), BotPoderosa()]
+bots = [BotBueno(), BotRandom(), Bot_las_Chicas_Super_Poderosas()]
 #esto generara el calendario de enfrentamientos
 fixture = Fixture(bots)
 #Llama al método get_fixture() para obtener la lista de partidos, que es una lista de tuplas.
